@@ -5,7 +5,7 @@ Pela definição oficial (https://nodejs.org/en/about/), é um runtime, ou seja,
 ## Os componentes do Node.js
  Node.js é composto por algumas bibliotecas e  alguns conceitos importantes para o Node.js, como assincronicidade, threads e callbacks.
 
-<img src="C:\Users\anton\Desktop\back-end\img\arq-node-dois.png"/>
+![Componentes Node.js](../img/arquitetura-componentes.png)
 
 
     
@@ -42,7 +42,10 @@ O Node é considerado monothread. Mas , antes iremos relebrar que thread são a 
 
 ## Tá mais o que isso Interfere em Node ?
 
-<img src="C:\Users\anton\Desktop\back-end\img\monothread.png"/>
+
+![Componentes Node.js](../img/monothread.png)
+
+
 
 
 No exemplo acima, o processamento de cada conexão é “agendado” e colocado em fila para execução um após o outro, ao invés de serem “espalhados” por diversas threads.
@@ -101,10 +104,14 @@ Nota : A questão do assincronismo é bem interessante imagine você tivesse que
 3-O Event Loop controla o início e o resultado de cada evento, fazendo com que programas desenvolvidos neste paradigma possam receber dezenas de milhares de requisições e tratá-las de forma paralela .
 
 ## O centro da arquitetura do Node.js: o loop de eventos
+![Event loop](../img/eventloop(1).gif)
 
 
 
 
+## Porque usar Promises?
+
+![Comparativo do Uso de Promises x Callback](../img/promises.png)
 
 
 

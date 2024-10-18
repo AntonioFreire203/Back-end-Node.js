@@ -84,7 +84,7 @@ console.log(inverterString("roma"));
 
 
 /*
-Verificar se uma palavra é um palíndromo: Crie uma função isPalindromo que receba uma string e retorne true se for um palíndromo e false se não for.
+8-Verificar se uma palavra é um palíndromo: Crie uma função isPalindromo que receba uma string e retorne true se for um palíndromo e false se não for.
 
 */
 
